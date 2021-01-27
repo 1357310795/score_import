@@ -1,0 +1,17 @@
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe.config
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\bin\Debug\WpfApp5.exe
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\bin\Debug\WpfApp5.pdb
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\bin\Debug\WpfApp5.xml
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.vbprojAssemblyReference.cache
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\MainWindow.g.vb
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\Application.g.vb
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.cache
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5_MarkupCompile.lref
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\MainWindow.baml
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.g.resources
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.Resources.resources
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.vbproj.GenerateResource.cache
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.vbproj.CoreCompileInputs.cache
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.exe
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.xml
+C:\Users\Hikari\source\repos\WpfApp5\WpfApp5\obj\Debug\WpfApp5.pdb

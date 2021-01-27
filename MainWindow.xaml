@@ -1,0 +1,78 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp5" Title="成绩统计"
+        mc:Ignorable="d" Closing="Window_Closing"
+       Height="509.716" Width="835.19" ResizeMode="NoResize">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Orientation="Vertical">
+        <TextBlock Grid.Row="0" Text="成绩统计" FontSize="30" HorizontalAlignment="Center"/>
+        <StackPanel Orientation="Horizontal" Margin="5">
+            <TextBlock FontSize="20">姓名：</TextBlock>
+            <TextBox x:Name="name" Width="200"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  Margin="5">
+            <TextBlock FontSize="20">学号：</TextBlock>
+            <TextBox x:Name="number" Width="200"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  Margin="5">
+            <TextBlock FontSize="20">物理：</TextBlock>
+            <TextBox x:Name="wuli" Width="200" Text="0" FontSize="20"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  Margin="5">
+            <TextBlock FontSize="20">化学：</TextBlock>
+            <TextBox x:Name="huaxue" Width="200" Text="0" FontSize="20"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  Margin="5">
+            <TextBlock FontSize="20">生物：</TextBlock>
+            <TextBox x:Name="shengwu" Width="200" Text="0" FontSize="20"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  Margin="5">
+            <TextBlock FontSize="20">政治：</TextBlock>
+            <TextBox x:Name="zhengzhi" Width="200" Text="0" FontSize="20"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  Margin="5">
+            <TextBlock FontSize="20">历史：</TextBlock>
+            <TextBox x:Name="lishi" Width="200" Text="0" FontSize="20"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  Margin="5">
+            <TextBlock FontSize="20">地理：</TextBlock>
+            <TextBox x:Name="dili" Width="200" Text="0" FontSize="20"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"  Margin="5">
+            <TextBlock FontSize="20">技术：</TextBlock>
+            <TextBox x:Name="jishu" Width="200" Text="0" FontSize="20"/>
+        </StackPanel>
+            <StackPanel Orientation="Horizontal"  Margin="5">
+                <TextBlock FontSize="20">英语：</TextBlock>
+                <TextBox x:Name="yingyu" Width="200" Text="0" FontSize="20"/>
+            </StackPanel>
+            <Button Content="确定" FontSize="20" Margin="20" Click="Button_Click"/>
+    </StackPanel>
+        <StackPanel Orientation="Vertical" Grid.Column="1">
+            <TextBlock Margin="10" HorizontalAlignment="Center" FontSize="36" Foreground="Red" >说明</TextBlock>
+            <TextBlock Margin="5" FontSize="20" >
+                1.未选科目成绩保持默认值0。
+            </TextBlock>
+            <TextBlock Margin="5" FontSize="20" >
+                2.如果输入错误，重新输入并确定即可。
+            </TextBlock>
+            <TextBlock Margin="5" FontSize="20" >
+                3.完毕后在网页上退出登录，保持本程序开启。
+            </TextBlock>
+            <TextBlock Margin="5" FontSize="20" TextWrapping="Wrap" Foreground="Red">
+                4.重要：截图！在网页上按键盘上的win+PrtSc（两个键一起按，PrtSc在右上角），看到屏幕闪一下即可。
+            </TextBlock>
+            <TextBlock Margin="5" FontSize="20" TextWrapping="Wrap" Foreground="Red" MouseUp="TextBlock_MouseUp">
+                5.进入网站点这里！
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+    
+</Window>
